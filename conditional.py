@@ -1,102 +1,99 @@
-# #IF ELIF ELSE LADDER.............................
-
-# a = int(input("enter youur age : "))
-
-# # if statement 1 .......
-# if(a%2==0):    
-#   print("a is even no.")
-
-# #if statement 2........
-# if(a>18):
-#   print("you are above the age of consent")
-
-# elif(a<0):
-#   print("you are entering an invalid age")
-
-# elif(a==0):
-#   print("you are entering 0 invalid age")
-
+# n = int(input("Enter a number - "))
+# if(n>0):
+#   print("[POITIVE]")
+# elif(n<0):
+#   print("[NEGATIVE]")
 # else:
-#   print("you are below the age of consent")
-
-# print("End of program")
+#   print("[ZERO]")
 
 
-# a1 = int(input("enter number 1: "))
-# a2 = int(input("enter number 2: "))
-# a3 = int(input("enter number 3: "))
-# a4 = int(input("enter number 4: "))
 
-# if(a1>a2 and a1>a3 and a1>a4):
-#   print("a1 is greatest")
-# elif(a2>a1 and a2>a3 and a2>a4): 
-#   print("a2 is greatest")
-# elif(a3>a1 and a3>a2 and a3>a4): 
-#   print("a3 is greatest")
+# age = int(input("Enter your age - "))
+# if(age>=18):
+#   print("Eligible for voting")
 # else:
-#    print("a4 is greatest")
+#   print("Not eligible for voting")
 
-# print("\nend of program")   
-
-
-
-# num1 = int(input("Enter the marks of subject math : "))
-# num2 = int(input("Enter the marks of subject gk : "))
-# num3 = int(input("Enter the marks of subject science : "))
-
-# total_percentage = (100*( num1 + num2 + num3)) / 300
-
-# if(total_percentage >= 40 and num1>=33 and num2>=33 and num3>=33):
-#   print("you are passed",total_percentage)
-
+# n = int(input("Enter a number - "))
+# if(n%2==0):
+#   print("The number is even")
 # else:
-#   print("you are failed",total_percentage)
+#   print("the number is odd")
 
 
 
-
-# p1 = "Ayushi is a good girl"
-# p2 = "Ayushi is a brilliant girl"
-# p3 = "SUHANA good morning"
-# p4 = "Ayu click this please "
-
-# message = input("enter your comment : ")
-# if((p1 in message) or (p2 in message) or (p3 in message) or (p4 in message)):
-#   print("this comment is a spam")
+# a = 34
+# b = 90
+# c = 754
+# if(a>b and a>c):
+#   print("A is greater")
+# elif(b>a and b>c):
+#   print("B is greater")
 # else:
-#   print("this comment is not a spam")
+#   print("C is greater")
 
 
-# username = input("enter username : ")
-
-# if(len(username)<10):
-#   print("your username less than 10 character")
+# m = int(input("Enter your marks - "))
+# if(m>=90):
+#   print("GRADE A")
+# elif(m>=75):
+#     print("GRADE B")
+# elif(m>=50):
+#     print("GRADE C")
 # else:
-#   print("all is well")  
+#    print("FAIL")
 
 
 
-# list = ['harry','ayushi','divya','suhanan']
-# name = input("enter your name:")
-# if(name in list):
-#   print("your name is in list , thankyou")
-# else:  
-#   print("your name is not in list ,better luck next time")
+# year=int(input("ENTER A YEAR ACCORDING TO YOU - "))
+# if(year%4==0 and year%100!=0):
+#   print("LEAP YEAR")
+# else:
+#   print("NOT A LEAP YEAR")
 
 
 
-# post = input("enter your post -- ")
-
-# if("Ayushi" in post):
-#   print("this post talking about ayushiii")
-# else:  
-#   print("this post is not  talking about ayushiii shukla")
-
-
-
+# n = int(input("Enter a number - "))
+# if(n<10):
+#   print("1 digit number")
+# elif(n<100):
+#   print("2 digit number")
+# else:
+#   print("3 digit number")
 
 
 
+# NESTED CONDITIONS.........................................................................................................................
+
+ 
+# n = int(input("Enter a number"))
+# if(n>0 and n%2==0):
+#   print("the number is positive and even")
+# elif(n>0 and n%2!=0):
+#   print("the number is positive and odd")
+# else:
+#   print("NEGATIVE")
+
+# x=int(input("enter a password"))
+# if(x==1234):
+#   print("access ")
+# else:
+#   print("denied")
+
+# a = int(input("enter vlaue a"))
+# b = int(input("enter vlaue b"))
+# c = int(input("enter vlaue c"))
+# if(a+b>c):
+#   print("valid")
+# else:
+#   print("invalid")
+
+
+# ch= input("enter a character - ")
+# if(ch=='a' or ch=='e' or ch=='i' or ch=='o' or ch=='u'):
+#   print("VOWEL")
+# else:
+#   print("CONSONANT")
 
 
 
@@ -106,4 +103,8 @@
 
 
 
+  
 
+
+
+   
