@@ -14,6 +14,9 @@ This repository contains my Python practice codes and concepts that I am learnin
 * Dictionary & Sets
 * File Handling
 * Object-Oriented Programming (OOP)
+* Class
+* Inheritence
+* Constuctor
 
 ## 💡 About
 
